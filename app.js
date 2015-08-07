@@ -11,7 +11,7 @@ var users = require('./routes/users');
 
 var app = express();
 var http = require('http').Server(app);
-http.listen(3002, "127.0.0.1");
+//http.listen(3002, "127.0.0.1");
 var io = require('socket.io')(http);
 
 

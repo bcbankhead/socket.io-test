@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:3002');
+var socket = io.connect();
 var keypress = 0;
 var status = document.getElementById('status')
 var textnode = document.createTextNode("statusText")
